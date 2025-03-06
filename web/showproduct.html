@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adidas store</title>
+    <link rel="icon" href="../photo/adidasprand.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/showproduct.css">
+    <link rel="stylesheet" href="/css/screens.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xxl">
+        <div class="container navcontainer">
+            <a class="navbar-brand" href="/index.html">adidas</a>
+            <div class="searchsec">
+                <section class="dropdown searchdropdown h-100 w-100">
+                    <input id="searchinput" type="search" placeholder="Search">
+                    <div id="searchdropdownlist" data-bs-toggle="dropdown" class="dropdown-menu searchdropdownlist">
+                    </div>
+                </section>
+                <button id="search" class="searchbutton">&#xf002;</button>
+                <div class="dropdown filterdropdown dropstart">
+                    <button data-bs-toggle="dropdown">&#xf1de;</button>
+                    <ul id="searchfilterlist" class="dropdown-menu filterdropdownlist">
+                        <li class="dropdown-item" value="Name">
+                            <span>Search by : Name</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="toggler-icon">&#xf0c9;</span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/web/product.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile</a>
+                    </li>
+                    <li id="chat" class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li id="mode" class="nav-item nav-item-mode">
+                        <div class="navmode">&#xf042;</div>
+                    </li>
+                    <li class="logsignsec nav-item nav-link">
+                        <div id="navloginbutton" class="nav-link login"></div>
+                        <div id="navsignbutton" class="nav-link signup"></div>
+                        <div id="userphotobutton" class="nav-link userphoto"></div>
+                        <div id="logoutbutton" class="nav-link logout">&#xf2f5;</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="productshowcon">
+        <div class="productshow productshowanimat">
+            <div id="screenslider" class="carousel slide w-100 h-100">
+                <div class="carousel-inner w-100 h-100">
+                    <div id="carouselitem" class="carousel-item carditem active">
+                        <div id="content" class="w-100" style="height: 85%;"></div>
+                        <div class="buttoncon">
+                            <button class="buybutton">&#xf155; buy</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item carditem commntsslid">
+                        <div style="display: flex; justify-content: space-between;  align-items: center;">
+                            <button data-bs-target="#screenslider" data-bs-slide="next"
+                                class="commbackbtn">&#xf30a;</button>
+                        </div>
+                        <div id="commpool" class="commentslist msgpool">
+                            <span id="nocomment">No one comment here yet !</span>
+                        </div>
+                        <div class="commentcontrols">
+                            <div id="commentselected" class="commentselected">
+                                <span style="min-width: 90px;">Replay on #</span>
+                                <span id="selectedcommentname">name</span>&nbsp;#&nbsp;
+                                <div id="selectedcommrnttext" class="commenttext">comment</div>
+                                <span id="closeselectedcomment" style="cursor: pointer;">&#xf057;</span>
+                            </div>
+                        </div>
+                        <div class="commentcontrols">
+                            <input id="comminput" placeholder="Write your comment here" type="text"
+                                class="form-control ps-4">
+                            <button id="sendcomm" class="btn">&#xf1d8;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footersec">
+        <div class="row footerprandsocialrow">
+            <section class="col-12 col-xl-3 footerprandsocial">
+                <div class="footerbrand w-100 d-flex justify-content-center align-items-center">
+                    <img src="/photo/mainpage/footersec/adidasprand.png" width="45%">
+                </div>
+                <div class="footersocial w-100 d-flex justify-content-center align-items-center">
+                    <img src="/photo/mainpage/footersec/twit.png" width="5%">
+                    <img src="/photo/mainpage/footersec/pin.png" width="5%">
+                    <img src="/photo/mainpage/footersec/insta.png" width="5%">
+                    <img src="/photo/mainpage/footersec/face.png" width="5%">
+                </div>
+            </section>
+            <section class="col-12 col-xl-9 order-xl-0" style="height: 100%;padding: 0px;">
+                <div class="row">
+                    <section class="col-12 col-md-4 footerlinks h-100 ">
+                        <span>Shop</span>
+                        <ul type="none">
+                            <li>Gift Guides</li>
+                            <li>Fan Art</li>
+                            <li>Blog</li>
+                            <li>Login</li>
+                            <li>Signup</li>
+                            <li>About Us</li>
+                        </ul>
+                    </section>
+                    <section class="col-12 col-md-4 footerlinks h-100">
+                        <span>Business</span>
+                        <ul type="none">
+                            <li>Delivery</li>
+                            <li>Returns</li>
+                            <li>Help Center</li>
+                            <li>Guidelines</li>
+                            <li>Copyright</li>
+                            <li>Investor Center</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </section>
+                    <section class="col-12 col-md-4 footerlinks h-100">
+                        <span>Online store</span>
+                        <ul type="none">
+                            <li>Sell online</li>
+                            <li>Features</li>
+                            <li>Examples</li>
+                            <li>Website editor</li>
+                            <li>Online retail</li>
+                            <li>Ecommerce website</li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <main id="chatfloat" class="chatfloat">
+        <button id="closechatpagebtn" class="btn closechatpage">&#xf00d;</button>
+    </main>
+    <div id="alertpool" class="position-fixed bottom-0 right-0 p-3" style="z-index: 100; right: 0; bottom: 0;"></div>
+</body>
+    <script type="module"  src="/js/mode.js"></script>
+<script src="/bootstrap-5.3.3-dist/popper/popper.min.js"></script>
+<script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="/js/search.js"></script>
+<script type="module" src="/js/showproduct.js"></script>
+<script type="module" src="/js/navauthbtns.js"></script>
+<script type="module" src="/js/floatbtns.js"></script>
+<script type="module" src="/js/logout.js"></script>
+
+</html>

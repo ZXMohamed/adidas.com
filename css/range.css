@@ -1,0 +1,29 @@
+.ui-slider{
+    position: relative;
+    top: 0px;
+    max-width: 200px;
+    height: 10px;
+    border-radius: 50px;
+    transition: none;
+    background-color: var(--midlight);
+    margin: 30px 0px;
+}
+.ui-slider-range{
+    border-radius: 30px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-color: var(--mid);
+}
+.ui-slider-handle{
+    transition: none;
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: var(--light);
+}

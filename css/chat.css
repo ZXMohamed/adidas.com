@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 450px;
+    height: 700px;
+    overflow: hidden;
+}
+#nav-room{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: var(--secbg);
+    display: none;
+    z-index: 200;
+}
+.media>img {
+    flex-grow: 0;
+    height: fit-content;
+}
+.chatcon{
+    overflow: hidden;
+    background-color: var(--secbg);
+    height: 100%;
+}
+.chatheader{
+    height: 80px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    color: var(--title);
+    background-image: linear-gradient(270deg, var(--dark), var(--buttonhover));
+}
+.tabcontent{
+    position: relative;
+    top: 0px;
+}
+.contactphoto{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.contactphotomini{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.contactname{
+    font-weight: 700;
+    font-size: 20px;
+}
+.contactnamemini{
+    font-size: 14px;
+}
+.pool{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 550px;
+}
+.nav-link{
+    color: var(--chatcolor);
+    flex-grow: 1;
+    height: 70px;
+}
+.contactbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 35px;
+    margin: 0px 0px;
+    background-color: var(--secbg);
+    color: var(--chatcolor);
+}
+.contactbarmini{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 0px 0px;
+}
+.contactunread,
+.contactonline{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.contactonlinemini{
+    margin-left: auto;
+    margin-right: 2px;
+}
+.badge{
+    margin: 3px;
+}
+.msgspool{
+    padding: 0px 5px;
+    height: 475px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.chatcontrol{
+    background-color: var(--secbg);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.senderphoto{
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.msginput{
+    width: 80%;
+    min-height: 30px !important;
+    max-height: 72px !important;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 0px solid;
+    outline: 0px solid;
+}
+.sendbtn{
+    font-family: "symbols";
+    border: none;
+    outline: none;
+    color: var(--dark);
+    background-color: transparent;
+}
+.sendermsgcontainer{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin: 40px 20px;
+    background-color: var(--sendermsgbg);
+    max-width: 350px;
+    border-radius: 25px;
+    color: var(--chatmsgcolor);
+    min-height: 45px;
+    position: relative;
+    top: 0px;
+    padding-left: 20px;
+}
+.sendermsgcontainer>.msgsenderphoto{
+    margin-right: -10px;
+    margin-left: 10px;
+}
+.contactmsgcontainer{
+    justify-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 20px;
+    background-color: var(--contactrmsgbg);
+   max-width: 350px;
+    border-radius: 25px;
+    color: var(--chatmsgcolor);
+    min-height: 45px;
+    position: relative;
+    top: 0px;
+    padding-right: 20px;
+}
+.contactmsgcontainer>.msgsenderphoto{
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.msgsenderphoto{
+    margin-top: -3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+}
+.msgtxt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.msgdate{
+    font-family: "symbols";
+    font-size: 11px;
+    color: var(--msgdate);
+    background-color: var(--msgdatebg);
+    max-width: 170px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+    padding: 0px 8px;
+}
+.seen{
+    filter: opacity(1);
+    color: var(--buttonhover);
+}
+.infocontainer{
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 20px;
+    background-color: transparent;
+    max-width: 230px;
+    border-radius: 25px;
+    color: var(--chatmsgcolor);
+    min-height: 45px;
+    position: relative;
+    top: 0px;
+    padding: 0px 20px;
+}
+.infophoto{
+    margin-top: -30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+}
+.infotxt{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--buttonhover);
+    text-transform: capitalize;
+}
+.infoseen{
+    font-family: "symbols";
+    font-size: 11px;
+    color: var(--msgdate);
+    background-color: var(--msgdatebg);
+    max-width: 170px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -15px;
+    padding: 0px 8px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+ .nav-tabs .nav-link.active{
+    border-radius: 0px;
+}

@@ -1,0 +1,446 @@
+body
+{
+    overflow-y: scroll;
+}
+a,a:hover,a:active,a::selection
+{
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+.productshowcon
+{
+    margin:auto;
+    height: 919px;
+    width: 1920px;
+    background-image: radial-gradient(farthest-side at 100% 100%,var(--dark) 0%,var(--midlight) 80%,var(--dark) 80.1%,var(--dark) 100%);
+    background-size: 100% 180%;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productshow
+{
+    margin-top: 10%;
+    height: 70%;
+    width: 1344px;
+    backdrop-filter: blur(20px);
+    background-image: var(--showproductgradient);
+    background-size: 100% 180%;
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.100);
+   animation-name: productshowanimat;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards
+}
+@keyframes productshowanimat {
+  from {margin-top: 10%;filter: opacity(0%);background-size: 120% 140%;}
+  to {margin-top: 0%;filter: opacity(100%);background-size: 100% 180%;}
+}
+.carditem{
+    width: 100%;
+    height: 100%;
+}
+.content
+{
+    width: 100%;
+    height: 85%;
+}
+.productphotos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+.swiper
+{
+    height: unset;
+    width: 70%;
+}
+.swiper::selection{
+    background-color: #00000000;
+    color: #000000;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: var(--dark);
+}
+.productdata
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 8%;
+    position: relative;
+    top: 0px;
+}
+.productname
+{
+    color: var(--light);
+    font-size: 56px;
+    font-family: "headers";
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+    margin-bottom: 3%;
+    text-transform: capitalize; 
+}
+.productprice
+{
+    color: var(--price);
+    font-size: 22px;
+    margin-bottom: 2%;
+}
+.productpricevalue
+{
+    color: var(--title);
+}
+.productstock
+{
+    color: var(--price);
+    font-size: 22px;
+    margin-right: 30px;
+}
+.productstockvalue
+{
+    color: var(--title);
+}
+.productrate,.productlove
+{
+    font-family: symbols;
+    color: var(--title);
+    font-size: 20px;
+    margin-right: 20px;
+}
+.ratelovecon{
+    margin-bottom: 2%;
+}
+.productdiscription
+{
+    color: var(--title);
+    width: 70%;
+    margin-bottom: 2%;
+    font-size: 17px;
+    max-height: 150px;
+    overflow-x: hidden;
+}
+.control
+{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.color
+{
+    color: var(--title);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.color>div
+{
+    flex-shrink: 0;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    box-shadow: inset 1px 0px 5px rgba(0, 0, 0, 0.644);
+    background-color: var(--light);
+}
+.size
+{
+    color: var(--title);
+    font-size: 22px;
+    display: flex;
+}
+.size>div{
+    flex-shrink: 0;
+}
+.buttoncon
+{
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+.buybutton
+{
+    font-family: "symbols";
+    line-height: 1;
+    background-color: transparent;
+    color: var(--title);
+    border: 2px solid var(--title);
+    width: 130px;
+    height: 43.688px;
+    font-size: 24px;
+    transition: 1s;
+}
+.buybutton:hover
+{
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    color: var(--price);
+    border-color: var(--price);
+    background-color: #232b38;
+}
+.sidebuttons
+{
+    font-family: "symbols";
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    min-width: 8%;
+    transition-property: right;
+    transition-duration: 1s;
+    justify-items: right;
+}
+.sidebuttons>button
+{
+    outline: none;
+    border: none;
+    overflow: hidden;
+    background-color: var(--midlight);
+    border-radius: 24px;
+    width: 60px;
+    padding: 12.453px;
+    margin-bottom: 12.453px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: var(--title);
+    box-shadow: 5px 5px 10px #292e36d8 , inset 5px 5px 10px #99afcc75;
+    cursor: pointer;
+}
+.openrate{ 
+    width: 250px !important;
+    justify-content: left !important;
+    border-radius: 50px !important;
+}
+.openrate>span{
+    margin: 5px;
+}
+.openrate>span:hover~span:not(.delrate){
+    color: var(--rate);
+}
+.mode:hover
+{
+    color: var(--dark);
+}
+.love:hover,.loved
+{
+    color: var(--love) !important;
+}
+.cart:hover,.carted
+{
+    color: var(--mid) !important;   
+}
+.rate:hover,.rated
+{
+    color: var(--rate) !important;
+}
+.delrate:hover{
+    color: var(--love) !important;
+}
+.comment:hover
+{
+    color: var(--dark);
+}
+.replay:hover
+{
+    color: var(--dark);
+}
+
+.commbackbtn{
+    background-color: transparent;
+    color: var(--title);
+    border: none;
+    font-family: "symbols";
+    font-size: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.msgpool
+{
+    width: 100%; 
+    height: 440px;
+    color: var(--title);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden scroll;
+    padding: 0px 20px;
+}
+.media{
+    min-width: 40%;
+    position: relative;
+    top: 0px;
+    display: flex;
+}
+.media>img{
+    height: fit-content;
+    margin-top: 20px;
+}
+.media-body{
+    flex-grow: 1;
+    margin-top: 20px;
+}
+.msgpool>div{
+    width: 85%;
+    position: relative;
+    top: 0px;
+    border-top:1px solid var(--commentreplaybg);
+    
+}
+.commentmenu{
+    z-index:100; 
+    box-shadow: none !important;
+    font-family: 'symbols';
+    color: var(--title);
+    outline: none;
+    border: none;
+}
+.dropdown-menu {
+    right: 0;
+    left: unset;
+}
+.msgmenu{
+    right: 0px;
+    top: 0px;
+}
+.commreplay
+{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: var(--title);
+    font-family: "symbols";
+    padding-right: 10px;
+}
+.replaypool{
+    max-height: 300px;
+    background-color: #44546a77;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.commentselected{
+    font-family: "symbols";
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+    color: var(--title);
+}
+#selectedcommentname{
+    min-width: 130px;
+    max-width: 160px;
+}
+.commenttext{
+    overflow: hidden;
+    max-width: 700px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    line-break: strict;
+    max-height: 24px;
+}
+.commentcontrols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commentcontrols>input{
+    width: 950px;
+    border-radius: 0.8rem;
+    margin-right: 40px;
+    box-shadow: none !important;
+    border: none;
+}
+.commentcontrols>button{
+    font-family: "symbols";
+    color: var(--title);
+    box-shadow: none !important;
+    font-size: 30px;
+}
+/* -------------- */
+@media (max-width:1920px) {
+    .productshowcon{
+        width: 100%;
+    }
+}
+@media (max-width:1400px) {
+     .productshow
+    {
+        box-shadow: none;
+    }
+    .productshowcon{
+        height: auto;
+    }
+    .commentcontrols>input{
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+}
+@media (max-width:1200px) {
+    .carousel
+    {
+        width: 40%;
+    }
+     .productshow
+    {
+        margin-top: 0%;
+        height: 100%;
+        width: 100%;
+        background-size: 100% 180%;
+        background-repeat: no-repeat;
+        background-position: left;
+        box-shadow:none;
+        animation-name: none;
+    }
+    .productshowcon
+    {
+        height: unset;
+        overflow: hidden;
+    }
+    .productdata{
+        margin-left: 5%;
+    }
+    
+.sidebuttons {
+
+     width: unset;
+    }
+
+    .commentselected{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width:786px) {
+    .carousel
+    {
+        width: 60%;
+    }
+
+}
+@media (max-width:480px) {
+    .carousel
+    {
+        width: 80%;
+    }
+    .productname{
+        font-size: 40px;
+    }
+    
+}
