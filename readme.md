@@ -106,9 +106,9 @@
 ###
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=vercel" height="60" alt="vercel logo"  />
+  <img src="https://skillicons.dev/icons?i=vercel" height="45" alt="vercel logo"  />
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="60" alt="firebase logo"  />
+  <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="45" alt="firebase logo"  />
 </div>
 
 ###
