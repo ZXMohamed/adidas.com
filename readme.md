@@ -69,7 +69,6 @@
 <summary><b>#Users : </b><h6>click to open</h6></Summary>
 <br>johndoe123@gmail.com<br>assassD1<br><br>randomuser456@outlook.com<br>123456Random<br><br>demoaccount123@gmail.net<br>assassD1<br><br>alexsmith999@outlook.com<br>assassD1<br><br>fakeuseralpha@xmail.net<br>Emily 1234<br><br>randommail789@yahoo.com<br>assassD1<br><br>accountfake123@gmail.net<br>assassD1<br><br>al1e5x5s999@outlook.com<br>assassD1<br><br>userfakealpha@xmail.net<br>Emily 1234<br><br>mailrandom789@yahoo.com<br>assassD1
 </details>
-<br>
 <details>
 <summary><b>#Clint Service :</b> <h6>click to open</h6></summary>
 <br>support1@adidas.com<br>assassD1<br><br>support2@adidas.com<br>assassD1</details>
