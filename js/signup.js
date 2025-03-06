@@ -7,7 +7,7 @@ import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/11.0.2
 import { getStorage, ref as stref, uploadBytesResumable, getDownloadURL } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-storage.js";
 import { storage } from "./storageconfig.js";
 import { getuser } from "./signed.js";
-import Toast from "../clintserv/toast.js";
+import Toast from "./toast.js";
 
 let newaccount = false;
 
