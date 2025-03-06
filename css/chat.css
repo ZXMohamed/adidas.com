@@ -99,7 +99,7 @@ body{
 }
 .msgspool{
     padding: 0px 5px;
-    height: 475px;
+    height: 480px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
