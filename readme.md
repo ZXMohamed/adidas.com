@@ -94,7 +94,7 @@
   <img width="10" />
   <img src="https://skillicons.dev/icons?i=jquery" height="60" alt="jquery logo"  />
   <img width="10" />
-  <img src="https://swiperjs.com/images/swiper-logo.svg" height="60" alt="abbrobotstudio logo"  />
+  <img src="https://swiperjs.com/images/swiper-logo.svg" height="60" alt="swiper logo"  />
   <img width="10" />
   <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="60" alt="firebase logo"  />
   <img width="10" />
