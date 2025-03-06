@@ -16,23 +16,23 @@
 <summary>
 <b align="left">ex : </b><h6>click to open</h6>
 </summary>
-<img src="./ex/1.PNG" width="500px">
-<img src="./ex/2.PNG" width="500px"><br>
-<img src="./ex/3.PNG" width="500px">
-<img src="./ex/4.PNG" width="500px"><br>
-<img src="./ex/5.PNG" width="500px">
-<img src="./ex/6.PNG" width="500px"><br>
-<img src="./ex/7.PNG" width="500px">
-<img src="./ex/8.PNG" width="500px"><br>
-<img src="./ex/9.PNG" width="500px">
-<img src="./ex/10.PNG" width="500px"><br>
-<img src="./ex/11.PNG" width="500px">
-<img src="./ex/12.PNG" width="500px"><br>
-<img src="./ex/13.PNG" width="500px">
-<img src="./ex/14.PNG" width="500px"><br>
-<img src="./ex/17.PNG" width="333px">
-<img src="./ex/16.PNG" width="333px">
-<img src="./ex/15.PNG" width="333px">
+<img src="./ex/1.PNG" width="400px">
+<img src="./ex/2.PNG" width="400px"><br>
+<img src="./ex/3.PNG" width="400px">
+<img src="./ex/4.PNG" width="400px"><br>
+<img src="./ex/5.PNG" width="400px">
+<img src="./ex/6.PNG" width="400px"><br>
+<img src="./ex/7.PNG" width="400px">
+<img src="./ex/8.PNG" width="400px"><br>
+<img src="./ex/9.PNG" width="400px">
+<img src="./ex/10.PNG" width="400px"><br>
+<img src="./ex/11.PNG" width="400px">
+<img src="./ex/12.PNG" width="400px"><br>
+<img src="./ex/13.PNG" width="400px">
+<img src="./ex/14.PNG" width="400px"><br>
+<img src="./ex/17.PNG" width="233px">
+<img src="./ex/16.PNG" width="233px">
+<img src="./ex/15.PNG" width="233px">
 </details>
 
 ###
