@@ -2,7 +2,7 @@ import Cookies from "./cookies.js";
 import Routing from "./routing.js";
 import { app } from "./serverconfig.js";
 import { getAuth, signInWithEmailAndPassword, setPersistence, browserSessionPersistence, browserLocalPersistence } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
-import Toast from "../clintserv/toast.js";
+import Toast from "./toast.js";
 const auth = getAuth(app);
 let sessiontype = browserSessionPersistence;
 
