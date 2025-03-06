@@ -8,8 +8,6 @@
 
 <h4 align="left">Name : adidas.com</h4>
 
-###
-
 <p align="left"><b>Description : </b> an online store for  buying adidas shoes and adidas customer service.</p>
 
 ###
@@ -18,7 +16,6 @@
 <summary>
 <b align="left">ex :</b><h6>click to open</h6>
 </summary>
-
 <img src="./ex/1.PNG" width="500px">
 <img src="./ex/2.PNG" width="500px"><br>
 <img src="./ex/3.PNG" width="500px">
@@ -36,7 +33,6 @@
 <img src="./ex/17.PNG" width="333px">
 <img src="./ex/16.PNG" width="333px">
 <img src="./ex/15.PNG" width="333px">
-
 </details>
 
 ###
@@ -68,7 +64,7 @@
 <h6 align="left">▶ you can register your own account</h6>
 
 ###
-<p align="left">
+
 <details>
 <summary><b>#Users : </b><h6>click to open</h6></Summary>
 <br>johndoe123@gmail.com<br>assassD1<br><br>randomuser456@outlook.com<br>123456Random<br><br>demoaccount123@gmail.net<br>assassD1<br><br>alexsmith999@outlook.com<br>assassD1<br><br>fakeuseralpha@xmail.net<br>Emily 1234<br><br>randommail789@yahoo.com<br>assassD1<br><br>accountfake123@gmail.net<br>assassD1<br><br>al1e5x5s999@outlook.com<br>assassD1<br><br>userfakealpha@xmail.net<br>Emily 1234<br><br>mailrandom789@yahoo.com<br>assassD1
@@ -76,7 +72,7 @@
 <br>
 <details>
 <summary><b>#Clint Service :</b> <h6>click to open</h6></summary>
-<br>support1@adidas.com<br>assassD1<br><br>support2@adidas.com<br>assassD1</details></p>
+<br>support1@adidas.com<br>assassD1<br><br>support2@adidas.com<br>assassD1</details>
 
 ###
 
