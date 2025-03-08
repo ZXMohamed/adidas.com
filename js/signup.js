@@ -169,7 +169,7 @@ next.addEventListener("click", function () {
                 password: password.value,
                 userphoto: photoselector.files[0]
             }
-            .log(userdata);
+
             createUserWithEmailAndPassword(auth, userdata.email, userdata.password)
                 .then(() => {
                     const uploads = [];
