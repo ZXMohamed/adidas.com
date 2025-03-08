@@ -35,7 +35,7 @@ export function loginanimation(uid) {
         if (urls[0] != undefined) {
             userphotobutton.style.backgroundImage = `url(${urls[0]})`;
         } else { 
-
+            userphotobutton.style.backgroundImage = ``;
         }
     });
 
