@@ -242,10 +242,10 @@ export default class Contact {
     static destroy(pageitem = {}) {
         pageitem.target.remove();
         pageitem.obj = null;
-        if (Object.hasOwn(obj.#data, "room")) { 
+        if (Object.hasOwn(pageitem.obj.#data, "room")) { 
             delete Chat.rooms[pageitem.obj.#data.room];
         }
-        else if (Object.hasOwn(obj.#data, "online")) {
+        else if (Object.hasOwn(pageitem.obj.#data, "online")) {
             delete Chat.online[pageitem.id];
         }
         
