@@ -30,12 +30,13 @@ export function loginanimation(uid) {
     userphotobutton.style.display = "flex";
     logoutbutton.style.display = "flex";
 
-
+    userphotobutton.style.backgroundImage = "none";
+    
     getallurl("/customerphoto/" + uid + "/photo", (urls) => {
         if (urls[0] != undefined) {
             userphotobutton.style.backgroundImage = `url(${urls[0]})`;
         } else { 
-            userphotobutton.style.backgroundImage = ``;
+            userphotobutton.style.backgroundImage = "none";
         }
     });
 
