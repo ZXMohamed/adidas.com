@@ -12,6 +12,18 @@
 
 ###
 
+<p align="left"><b>Features : </b>
+  <ul>
+    <li>Auth, forget password, verify email after signup and filter products + search</li>
+    <li>User can react, comment, replay on comment, rate and add product to cart </li>
+    <li>Page for reacted and cart added products</li>
+    <li>Responsive design + Three theme color</li>
+    <li>Live chat page for customer service + Admin chat page</li>
+  </ul>
+</p>
+
+###
+
 <details>
 <summary>
 <b align="left">ex : </b><h6>click to open</h6>
